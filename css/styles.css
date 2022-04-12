@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url(//db.onlinewebfonts.com/c/a79f5235c6ec712afe64037d3cd0efe7?family=CopperPot);
 *{
     margin: 0;
     padding: 0;
@@ -48,7 +49,7 @@ section h1{
 }
 .container .card:hover{
     filter: blur(0px);
-    transform: : scale(1.1);
+    transform:  scale(1.1);
     opacity: 1;
 }
 .container .card .circle {
@@ -112,4 +113,18 @@ section h1{
 .container .card:nth-child(6) .circle,
 .container .card:nth-child(6) .content a{
     background: #ff652f;
+}
+
+/*
+recipie css begins here
+
+*/
+
+/*flash piza header*/
+.flashP_h1 h1{
+    align-content: center;
+    justify-content: center;
+    font: 900 40px/40px "Copper Pot",serif;
+    letter-spacing: 0;
+    margin-left: 400px;
 }
