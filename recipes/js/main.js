@@ -1,0 +1,3 @@
+mainWindow = new BrowserWindow({width: 1100, height: 700, icon: __dirname + '/icon.ico'}) mainWindow.loadURL(url.format({ pathname:'index.html', protocol: 'file', slashes: true }))
+
+app.on('ready', () => { protocol.interceptFileProtocol('file', (request, callback) => { const url = request.url.substr(7) /* all urls start with 'file://' */ callback({ path: path.normalize(${__dirname}/${url})}) }, (err) => { if (err) console.error('Failed to register protocol') }) createWindow() /* callback function */ })
