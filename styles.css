@@ -7,12 +7,22 @@
 
 }
 body {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(45deg, #ffaf00,#bb02ff);
     background-attachment: fixed;
+}
+section h1{
+    color: #000;
+    line-height: 5px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: 400px;
+
 }
 .container {
     position: relative;
